@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:padding="3dp" >
+
+    <Button
+            android:text="출동요원용"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button4"/>
+    <Button
+            android:text="블루투스 연결"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button3"/>
+    <Button
+            android:id="@+id/btnPublish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:onClick="publishClick"
+            android:text="Publish" />
+    <Button
+            android:text="Hotspot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button2"/>
+
+</LinearLayout>
